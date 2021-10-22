@@ -1,6 +1,8 @@
 spring:
  application:
   name: myvalue
+ profiles:
+  active: test
  cloud:
   config:
     enabled: true
